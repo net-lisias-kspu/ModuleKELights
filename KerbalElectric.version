@@ -1,0 +1,18 @@
+{
+	"NAME"		: "Kerbal Electric /L Unleashed",
+	"URL"		: "https://raw.githubusercontent.com/net-lisias-kspu/ModuleKELights/master/KerbalElectric.version",
+	"DOWNLOAD"	: "https://github.com/net-lisias-kspu/ModuleKELights/releases",
+	"CHANGE_LOG"	: "https://raw.githubusercontent.com/net-lisias-kspu/ModuleKELights/master/CHANGE_LOG.md",
+	"CHANGE_LOG_URL": "https://raw.githubusercontent.com/net-lisias-kspu/ModuleKELights/master/CHANGES.md",
+	"VERSION":{
+		"MAJOR":0,
+		"MINOR":1,
+		"PATCH":0,
+		"BUILD":6
+		},
+	"KSP_VERSION_MIN":{
+		"MAJOR":1,
+		"MINOR":3,
+		"PATCH":1
+		}
+}

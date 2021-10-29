@@ -34,3 +34,5 @@ using System.Runtime.InteropServices;
 // [assembly: AssemblyVersion("1.0.*")]
 [assembly: AssemblyVersion(ModuleKELights.Version.Number)]
 [assembly: AssemblyFileVersion(ModuleKELights.Version.Number)]
+[assembly: KSPAssemblyDependency("KSPe", 2, 4)]
+[assembly: KSPAssemblyDependency("KSPe.UI", 2, 4)]
