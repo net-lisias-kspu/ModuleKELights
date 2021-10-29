@@ -19,7 +19,7 @@ using System.Reflection;
 using UnityEngine;
 using KSP.Localization;
 
-namespace ModuleKELight
+namespace ModuleKELights
 {
 
     public class ModuleKELight : PartModule, IResourceConsumer
@@ -650,9 +650,7 @@ namespace ModuleKELight
         {
 			if (null == tiltAnimation)
 			{
-#if DEBUG
-				Debug.LogError("[Kerbal Electric] tiltAnimation is null!");
-#endif
+				Log.dbg("[Kerbal Electric] tiltAnimation is null!");
 				return;
 			}
 			if (tiltAnimation[tiltAnimationName].normalizedTime > 1)
