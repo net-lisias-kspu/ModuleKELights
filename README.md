@@ -1,7 +1,8 @@
-# ModuleKELights Unofficial
-Lighting plugin and parts for KSP. Unofficial fork by Lisias.
+# ModuleKELights /L Unleashed
 
-https://kerbal.curseforge.com/projects/kerbal-electric
+Lighting plugin and parts for KSP.
+
+[Unleashed](https://ksp.lisias.net/add-ons-unleashed/) fork by Lisias.
 
 
 ## In a Hurry
@@ -57,7 +58,9 @@ In your KSP GameData folder, delete any existing `Kerbal Electric` folder. Downl
 
 ### License
 
-CC-BY-SA-NC 4.0. See [here](./LICENSE)
+CC-BY-SA-NC 4.0i . See [here](./LICENSE)
+
+Please note the copyrights and trademarks in [NOTICE](./NOTICE).
 
 
 ## UPSTREAM

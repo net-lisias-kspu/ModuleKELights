@@ -82,7 +82,16 @@ namespace ModuleKELights
 		public const int minor = <#= minor #>;
 		public const int patch = <#= patch #>;
 		public const int build = <#= build #>;
+		
 		public const string Number = "<#= major #>.<#= minor #>.<#= patch #>.<#= build #>";
-		public const string Text = Number + " /L Unofficial";
+		// Note: This thing can't go to net.lisias.net as it uses hardcoded resources on the GameData,
+		// and this will break expectations on 3rd parties interfacing with this add'on.
+		//public const string Vendor = "net.lisias.ksp";
+
+	#if DEBUG
+		public const string Text = Number + " /L Unleashed DEBUG";
+	#else
+		public const string Text = Number + " /L Unleashed";
+	#endif
 	}
 }
